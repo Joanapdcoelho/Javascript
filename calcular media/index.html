@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 	
+	<div class="container">
+    <form>
+		<h1>Calcular a Média</h1>
+		<label>Matemática:</label>
+		<input type="number" name="disciplina1" id="disciplina1"  placeholder="Insira uma nota de 0 a 20" min="0" max="20" required /><br>
+		<label>Inglês:</label>
+		<input type="number" name="disciplina2" id="disciplina2" placeholder="Insira uma nota de 0 a 20" min="0" max="20" required/><br>
+		<label>Italiano:</label>
+		<input type="number" name="disciplina3" id="disciplina3" placeholder="Insira uma nota de 0 a 20" min="0" max="20" required /><br>
+        
+		<input type="button" value="Calcular" onclick="calcularMedia();" />
+		<div id="resultado"></div>
+	</form>
+</div>
+    <footer><p> Todos os direitos reservados JoanaCoelho&copy; 2023</p>
+        <script src="script.js"></script>		
+</body>
+</html>
