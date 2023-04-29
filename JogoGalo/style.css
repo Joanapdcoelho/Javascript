@@ -1,0 +1,60 @@
+/* * é para aplicar a tudo- é universal ao site */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url('jogo2.jpg');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  color: #4c6986;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;  
+  font-weight: bold;
+}
+
+hr {  
+  font-weight: bold;
+  height: 5px;
+  background: #4c6986;
+  margin-bottom: 40px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+}
+
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  background: #f7f7f7;
+}
+
+.game button:hover{
+  background: #4c6986;
+}
+
+footer{  
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  line-height: 1.5;    
+  margin-top: 5%;
+  padding: 2%;  
+  color: #4c6986;
+}
