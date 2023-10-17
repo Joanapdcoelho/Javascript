@@ -4,6 +4,6 @@
  # Projeto de calculadora de média
  Projeto inicial de javascript ainda em melhoramento.
 
- #Projeto Jogo do galo
+ # Projeto Jogo do galo
 
  
